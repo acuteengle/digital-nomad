@@ -23,13 +23,12 @@ export const ROUTES = [
     path: '/costs',
     View: (props) => <Costs {...props} />
   },
-  { // list of locations and dates for places traveled thus far and link to specific location pages with more details
-    // https://mui.com/material-ui/react-timeline/
+  {
     label: 'Locations',
     path: '/locations',
     View: (props) => <Locations {...props} />
   },
-  { // each location with have cost breakdown, link to myMap with recs, link to youtube, link to serena's blog post, instagram dance, instagram post, dslr photos (google photos link)
+  {
     label: 'City',
     path: '/city/:city?',
     View: (props) => <City {...props} />,
