@@ -13,20 +13,17 @@ export const NavigationBar = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link className="nav-link">
-            About
+          <Nav.Link href="/locations">
+            Locations
           </Nav.Link>
-          <Nav.Link className="nav-link">
-            Skills
+          <Nav.Link href="/map">
+            Map
           </Nav.Link>
-          <Nav.Link className="nav-link">
-            Experience
+          <Nav.Link href="/costs">
+            Costs
           </Nav.Link>
-          <Nav.Link className="nav-link">
-            Projects
-          </Nav.Link>
-          <Nav.Link className="nav-link">
-            Contact
+          <Nav.Link href="/socials">
+            Socials
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
