@@ -8,7 +8,7 @@ export const NavigationBar = () => (
   >
     <Container>
       <Navbar.Brand href="/">
-        <h3>B-Nomad</h3>
+        <h3>B-Nomadic</h3>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

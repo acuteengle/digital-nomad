@@ -1,5 +1,4 @@
 import React from "react";
-import dayjs from "dayjs";
 import { Container } from "react-bootstrap";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -21,10 +20,8 @@ export const Locations = () => {
               <TimelineDot />
               {index !== LOCATIONS.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
-            <TimelineContent><div>
-              <p>{`${dayjs(arrivalDay).format('MMM YYYY')} - ${dayjs(departureDay).format('MMM YYYY')}`}</p>
+            <TimelineContent>
               <p>{`${city}, ${country}`}</p>
-            </div>
             </TimelineContent>
           </TimelineItem>
         ))}
