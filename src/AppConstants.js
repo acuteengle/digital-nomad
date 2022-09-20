@@ -165,11 +165,16 @@ export const LOCATIONS = [
   {
     city: "Austin, Texas",
     country: "USA",
+    lattitude: 30.26830825183726,
+    longitude: -97.74928650508556,
     arrivalDay: '2021-03-28',
     departureDay: '2021-05-01',
     video: "https://www.youtube.com/watch?v=K4k1gXZkJiU",
     map: "https://www.google.com/maps/d/edit?mid=178GA8x6t2ypF9qmBf1VK2rEpXGVq5F_F&usp=sharing",
     blogPost: "https://thequietchew.wordpress.com/2021/07/08/good-morning-austin/",
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.eng photography
+    dancePost: null, // instagram reel
     housing: 1131,
     spending: 1387,
   }
