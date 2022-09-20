@@ -3,22 +3,22 @@ import "App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { VIEWS } from './routes.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ROUTES } from './routes.js';
 import { NavigationBar } from 'components/NavigationBar';
 
 library.add(fab);
 
 export const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <NavigationBar />
-      {/* <Switch>
-        {VIEWS.map(({ label, path, view, exact }) => <Route path={path} component={view} exact={exact} />)}
+      <Routes>
+        {ROUTES.map(({ label, path, View, exact }) => <Route key={label} path={path} element={<View />} exact={exact} />)}
         <Route render={() => {
           return <p>Not found</p>
         }} />
-      </Switch> */}
+      </Routes>
     </BrowserRouter>
   );
 }
