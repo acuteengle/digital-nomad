@@ -1,1 +1,9 @@
 /* Styling based off of https://www.pinterest.com/pin/94012710961600322/ */
+
+* {
+  font-family: "HelveticaNeue";
+}
+
+h2 {
+  font-weight: 800 !important;
+}
