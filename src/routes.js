@@ -3,7 +3,8 @@ import { Map } from 'views/Map';
 import { Costs } from 'views/Costs';
 import { Locations } from 'views/Locations';
 import { City } from 'views/City';
-// import { Socials } from 'views/Socials';
+import { Socials } from 'views/Socials';
+import { NotFound } from 'views/NotFound';
 
 export const ROUTES = [
   { // hero image with text in the middle?
@@ -33,9 +34,14 @@ export const ROUTES = [
     path: '/city/:city?',
     View: (props) => <City {...props} />,
   },
-  // { // external links to my photography instagram and youtube and serena's blog
-  //   label: 'Socials',
-  //   path: '/socials',
-  //   view: (props) => <Socials {...props} />
-  // },
+  { // external links to my photography instagram and youtube and serena's blog
+    label: 'Socials',
+    path: '/socials',
+    View: (props) => <Socials {...props} />
+  },
+  {
+    label: 'Not Found',
+    path: ':anyPage*',
+    View: () => <NotFound />
+  }
 ]
