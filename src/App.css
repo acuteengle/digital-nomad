@@ -1,5 +1,3 @@
-/* Styling based off of https://www.pinterest.com/pin/94012710961600322/ */
-
 * {
   font-family: "HelveticaNeue";
 }
@@ -21,6 +19,11 @@ a:hover {
   opacity: 0.7 !important;
 }
 
+.clickable:hover {
+  cursor: pointer !important;
+  opacity: 0.7 !important;
+}
+
 .pageContainer {
   margin-top: 64px;
 }
@@ -31,9 +34,4 @@ a:hover {
 
 .indent {
   padding-left: 24px;
-}
-
-.clickable:hover {
-  cursor: pointer !important;
-  opacity: 0.7 !important;
 }

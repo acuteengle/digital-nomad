@@ -12,8 +12,6 @@ export const City = () => {
 
   const [cityData, setCityData] = useState(null);
 
-  console.log("cityData", cityData);
-
   useEffect(() => {
 
     const data = LOCATIONS.find(location => location.key === cityId);
