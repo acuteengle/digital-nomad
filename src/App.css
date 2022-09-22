@@ -13,6 +13,27 @@ h6 {
   font-weight: 800 !important;
 }
 
+a {
+  color: black !important;
+}
+
+a:hover {
+  opacity: 0.7 !important;
+}
+
 .pageContainer {
   margin-top: 64px;
+}
+
+.spaceTop {
+  margin-top: 64px;
+}
+
+.indent {
+  padding-left: 24px;
+}
+
+.clickable:hover {
+  cursor: pointer !important;
+  opacity: 0.7 !important;
 }

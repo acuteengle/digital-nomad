@@ -41,7 +41,7 @@ export const ROUTES = [
   },
   {
     label: 'Not Found',
-    path: ':anyPage*',
+    path: ':anyPage*/',
     View: () => <NotFound />
   }
 ]

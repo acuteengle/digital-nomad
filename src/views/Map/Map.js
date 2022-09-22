@@ -13,7 +13,7 @@ export const Map = () => {
       <h1>Map</h1>
       <p>
         {selectedLocation
-          ? <span style={{ cursor: 'pointer' }} onClick={() => navigate(`/city/${selectedLocation.key}`)}>{`${selectedLocation.city}, ${selectedLocation.country}`} - "click here to see more"</span>
+          ? <span className="clickable" onClick={() => navigate(`/city/${selectedLocation.key}`)}>{`${selectedLocation.city}, ${selectedLocation.country}`} - "click here to see more"</span>
           : `"click on a marker"`
         }
       </p>

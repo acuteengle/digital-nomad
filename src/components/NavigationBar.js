@@ -4,7 +4,6 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 export const NavigationBar = () => (
   <Navbar
     expand="lg"
-    sticky="top"
   >
     <Container>
       <Navbar.Brand href="/">
