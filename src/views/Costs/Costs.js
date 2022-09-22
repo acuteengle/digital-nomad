@@ -58,6 +58,11 @@ export const Costs = () => {
     interaction: {
       mode: "index"
     },
+    plugins: {
+      legend: {
+        position: 'bottom'
+      }
+    },
     scales: {
       x: {
         stacked: true,
