@@ -1,1 +1,1 @@
-# Digital Nomad Journey
+# B.Nomadic
