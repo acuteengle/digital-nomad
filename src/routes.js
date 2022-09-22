@@ -30,8 +30,9 @@ export const ROUTES = [
   },
   {
     label: 'City',
-    path: '/city/:city?',
+    path: '/city',
     View: (props) => <City {...props} />,
+    slug: ':cityId',
   },
   { // external links to my photography instagram and youtube and serena's blog
     label: 'Socials',

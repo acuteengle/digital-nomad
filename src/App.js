@@ -16,15 +16,17 @@ const theme = createTheme({
   }
 });
 
-export const App = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <NavigationBar />
-        <Routes>
-          {ROUTES.map(({ label, path, View, exact }) => <Route key={label} path={path} element={<View />} exact={exact} />)}
-        </Routes>
-      </BrowserRouter>
-    </ThemeProvider>
-  );
-}
+export const App = () => (
+  <ThemeProvider theme={theme}>
+    <BrowserRouter>
+      <NavigationBar />
+      <Routes>
+        {ROUTES.map(({ label, path, View, slug }) => (
+          <Route key={label} path={path} element={<View />}>
+            <Route path={slug} element={<View />} />
+          </Route>
+        ))}
+      </Routes>
+    </BrowserRouter>
+  </ThemeProvider>
+);

@@ -20,7 +20,7 @@ export const Locations = () => (
             {index !== LOCATIONS.length - 1 && <TimelineConnector />}
           </TimelineSeparator>
           <TimelineContent>
-            <p>{`${city}, ${country}`}</p>
+            <p>"{`${city}, ${country}`}"</p>
           </TimelineContent>
         </TimelineItem>
       ))}
