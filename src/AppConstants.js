@@ -3,7 +3,7 @@ export const LOCATIONS = [
   {
     city: "Istanbul",
     country: "Türkiye",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-09-04",
     departureDay: "2022-09-18",
@@ -13,13 +13,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 803,
+    spending: 1228,
   },
   {
     city: "Budapest",
     country: "Hungary",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-08-21",
     departureDay: "2022-09-04",
@@ -29,13 +29,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 872,
+    spending: 1028,
   },
   {
     city: "Amsterdam",
     country: "Netherlands",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-08-07",
     departureDay: "2022-08-21",
@@ -45,13 +45,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 2418,
+    spending: 2062,
   },
   {
     city: "Lisbon",
     country: "Portugal",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-07-21",
     departureDay: "2022-08-07",
@@ -61,13 +61,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 2374,
+    spending: 1374,
   },
   {
     city: "Hawaii",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-07-07",
     departureDay: "2022-07-17",
@@ -77,13 +77,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 3122,
+    spending: 2340,
   },
   {
     city: "DMV (DC, Maryland, Virginia)",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-06-15",
     departureDay: "2022-07-06",
@@ -99,7 +99,7 @@ export const LOCATIONS = [
   {
     city: "Tamarindo",
     country: "Costa Rica",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-05-22",
     departureDay: "2022-06-15",
@@ -109,13 +109,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 1363,
+    spending: 1387,
   },
   {
     city: "Playa del Carmen",
     country: "Mexico",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-04-20",
     departureDay: "2022-05-22",
@@ -125,13 +125,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 1049,
+    spending: 1268,
   },
   {
     city: "Medellin",
     country: "Colombia",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-03-13",
     departureDay: "2022-04-10",
@@ -141,13 +141,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 639,
+    spending: 1261,
   },
   {
     city: "New Orleans, Louisiana",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-02-20",
     departureDay: "2022-03-13",
@@ -157,13 +157,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 1462,
+    spending: 1333,
   },
   {
-    city: "Atlanca, Georgia",
+    city: "Atlanta, Georgia",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-01-30",
     departureDay: "2022-02-20",
@@ -173,13 +173,13 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 2084,
+    spending: 1520,
   },
   {
     city: "San Juan, Puerto Rico",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2022-01-09",
     departureDay: "2022-01-30",
@@ -189,20 +189,20 @@ export const LOCATIONS = [
     personalInstagramPost: "", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
-    housing: 0,
-    spending: 0,
+    housing: 1553,
+    spending: 1634,
   },
   {
     city: "Barcelona",
     country: "Spain",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2021-10-23",
     departureDay: "2021-10-29",
     video: "",
     map: "",
     blogPost: "",
-    personalInstagramPost: "", // acuteengle
+    personalInstagramPost: "https://www.instagram.com/p/CVRGSDcIMCs/", // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
     housing: 928,
@@ -211,7 +211,7 @@ export const LOCATIONS = [
   {
     city: "Chicago, Illinois",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2021-09-08",
     departureDay: "2021-10-15",
@@ -227,7 +227,7 @@ export const LOCATIONS = [
   {
     city: "Bay Area, California",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2021-08-20",
     departureDay: "2021-09-07",
@@ -243,14 +243,14 @@ export const LOCATIONS = [
   {
     city: "Seattle, Washington",
     country: "USA",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2021-08-01",
     departureDay: "2021-08-19",
     video: "",
     map: "",
     blogPost: "",
-    personalInstagramPost: "", // acuteengle
+    personalInstagramPost: null, // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
     housing: 1631,
@@ -259,14 +259,14 @@ export const LOCATIONS = [
   {
     city: "Mexico City",
     country: "Mexico",
-    attitude: 0,
+    lattitude: 0,
     longitude: 0,
     arrivalDay: "2021-07-17",
     departureDay: "2021-07-31",
-    video: "",
-    map: "",
-    blogPost: "",
-    personalInstagramPost: "", // acuteengle
+    video: "https://www.youtube.com/watch?v=_6hPfSwu4Ds&ab_channel=BrandonEng",
+    map: "https://www.google.com/maps/d/edit?mid=1IoC6XarVzTrgN_w61XZkPyQ5xzOMoJ3y&usp=sharing",
+    blogPost: "https://thequietchew.wordpress.com/2021/08/10/bienvenidos-a-club-agua/",
+    personalInstagramPost: null, // acuteengle
     photosPost: null, // b.eng photography
     dancePost: null, // instagram reel
     housing: 1635,
@@ -275,24 +275,24 @@ export const LOCATIONS = [
   {
     city: "Ithaca, New York",
     country: "USA",
-    attitude: 0,
-    longitude: 0,
+    lattitude: 42.44396,
+    longitude: - 76.50188,
     arrivalDay: "2021-07-10",
     departureDay: "2021-07-16-",
     video: null,
-    map: null,
-    blogPost: "",
+    map: "https://www.google.com/maps/d/edit?mid=15HKdKVCjyra7A-ijAjaNUms4KkPIhC8b&usp=sharing",
+    blogPost: "https://thequietchew.wordpress.com/2021/07/20/idyllic-pastures/",
     personalInstagramPost: null, // acuteengle
     photosPost: null, // b.eng photography
-    dancePost: null, // instagram reel
+    dancePost: "https://www.instagram.com/reel/CRXGdHGD08C/", // instagram reel
     housing: 1028,
     spending: 948,
   },
   {
     city: "New York City, New York",
     country: "USA",
-    attitude: 30.26830825183726,
-    longitude: -97.74928650508556,
+    attitude: 40.71277,
+    longitude: -74.00597,
     arrivalDay: "2021-06-05",
     departureDay: "2021-07-09",
     video: "https://www.youtube.com/watch?v=R2yxMWeNb4g",
@@ -300,15 +300,15 @@ export const LOCATIONS = [
     blogPost: "https://thequietchew.wordpress.com/2021/07/08/concrete-jungle/",
     personalInstagramPost: "https://www.instagram.com/p/CQtcYTajoVG/", // acuteengle
     photosPost: null, // b.eng photography
-    dancePost: null, // instagram reel
+    dancePost: "https://www.instagram.com/reel/CQILDqrDlv0/", // instagram reel
     housing: 1187,
     spending: 1902,
   },
   {
     city: "Austin, Texas",
     country: "USA",
-    lattitude: 30.26830825183726,
-    longitude: -97.74928650508556,
+    lattitude: 30.26715,
+    longitude: -97.74306,
     arrivalDay: "2021-03-28",
     departureDay: "2021-05-01",
     video: "https://www.youtube.com/watch?v=K4k1gXZkJiU",
