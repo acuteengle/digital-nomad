@@ -3,48 +3,48 @@ export const LOCATIONS = [
   {
     city: "Istanbul",
     country: "Türkiye",
-    lattitude: 0,
-    longitude: 0,
+    lattitude: 41.00823,
+    longitude: 28.97835,
     arrivalDay: "2022-09-04",
     departureDay: "2022-09-18",
-    video: "",
-    map: "",
+    video: "https://www.youtube.com/watch?v=muUZOSlw_A8",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1u8f2NbU0yUcoiVkyfodYlsWj-mN23tY&usp=sharing",
     blogPost: null,
-    personalInstagramPost: "", // acuteengle
-    photosPost: null, // b.engphotography
-    dancePost: null, // instagram reel
+    personalInstagramPost: "https://www.instagram.com/p/CiqCNmzLqXE/", // acuteengle
+    photosPost: "https://www.instagram.com/p/Cis1O-ZNjgb/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CiYC-9zIiTc/", // instagram reel
     housing: 803,
     spending: 1228,
   },
   {
     city: "Budapest",
     country: "Hungary",
-    lattitude: 0,
-    longitude: 0,
+    lattitude: 47.49791,
+    longitude: 19.04023,
     arrivalDay: "2022-08-21",
     departureDay: "2022-09-04",
-    video: "",
-    map: "",
+    video: "https://www.youtube.com/watch?v=WwQSKLExteI",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1cdZDnhradNODcYKYzNuEHwBdKXjYJ4c&usp=sharing",
     blogPost: null,
-    personalInstagramPost: "", // acuteengle
-    photosPost: null, // b.engphotography
-    dancePost: null, // instagram reel
+    personalInstagramPost: "https://www.instagram.com/p/CiGbpHJIItB/", // acuteengle
+    photosPost: "https://www.instagram.com/p/CiKqbD7N0LO/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/Ch93Dy5IRam/", // instagram reel
     housing: 872,
     spending: 1028,
   },
   {
     city: "Amsterdam",
     country: "Netherlands",
-    lattitude: 0,
-    longitude: 0,
+    lattitude: 52.36757,
+    longitude: 4.90413,
     arrivalDay: "2022-08-07",
     departureDay: "2022-08-21",
-    video: "",
-    map: "",
+    video: "https://www.youtube.com/watch?v=3ZmnMuga_FE",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1kOakEuKcGqxHvr0JCCcnRYV4_0t5ZjY&usp=sharing",
     blogPost: null,
-    personalInstagramPost: "", // acuteengle
-    photosPost: null, // b.engphotography
-    dancePost: null, // instagram reel
+    personalInstagramPost: "https://www.instagram.com/p/Chh8cKfu8JI/", // acuteengle
+    photosPost: "https://www.instagram.com/p/ChnV9L0NaNV/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/ChNxQfUAy9D/", // instagram reel
     housing: 2418,
     spending: 2062,
   },
@@ -55,12 +55,12 @@ export const LOCATIONS = [
     longitude: 0,
     arrivalDay: "2022-07-21",
     departureDay: "2022-08-07",
-    video: "",
-    map: "",
+    video: "https://www.youtube.com/watch?v=xcOZD5V8FiA",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1Uhl1wt_f3mZ0449MYrX77k-u1XTvTrA&usp=sharing",
     blogPost: null,
-    personalInstagramPost: "", // acuteengle
-    photosPost: null, // b.engphotography
-    dancePost: null, // instagram reel
+    personalInstagramPost: "https://www.instagram.com/p/Cg9bfMmoPaq/", // acuteengle
+    photosPost: "https://www.instagram.com/p/ChVXmWAvgpb/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CgucukpgXAc/", // instagram reel
     housing: 2374,
     spending: 1374,
   },
