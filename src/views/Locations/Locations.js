@@ -11,9 +11,9 @@ import { LOCATIONS } from "AppConstants";
 export const Locations = () => (
   <Container className="pageContainer">
     <h1 className="pageTitle">Locations</h1>
-    <p>(most recent at the top)</p>
+    <p>"most recent at the top"</p>
     <Timeline position="alternate">
-      {LOCATIONS.map(({ city, country, arrivalDay, departureDay }, index) => (
+      {LOCATIONS.map(({ city, country }, index) => (
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
