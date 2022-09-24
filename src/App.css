@@ -19,9 +19,14 @@ a:hover {
   opacity: 0.7 !important;
 }
 
+.clickable {
+  text-decoration: underline;
+}
+
 .clickable:hover {
   cursor: pointer !important;
   opacity: 0.7 !important;
+  text-decoration: underline;
 }
 
 .pageContainer {
