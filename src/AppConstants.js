@@ -148,8 +148,8 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/edit?mid=1Yj9OF2iI6aavL3N9FyZ5ZX5mBSIKSRcV&usp=sharing",
     blogPost: "https://thequietchew.wordpress.com/2022/05/17/city-of-eternal-spring/",
     personalInstagramPost: "https://www.instagram.com/p/CcyyLzzOaF8/", // acuteengle
-    photosPost: "https://www.instagram.com/p/CbyF3HZOHfd/embed", // b.engphotography
-    dancePost: "https://www.instagram.com/reel/CcJPPxKgyeW/embed", // instagram reel
+    photosPost: "https://www.instagram.com/p/CbyF3HZOHfd/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CcJPPxKgyeW/", // instagram reel
     housing: 639,
     spending: 1261,
   },
