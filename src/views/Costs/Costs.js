@@ -81,6 +81,7 @@ export const Costs = () => {
       <h1>Costs</h1>
       <p>"monthly"</p>
       <Bar options={options} data={data} />
+      <p>"click legend to add and remove types"</p>
     </Container>
   )
 };

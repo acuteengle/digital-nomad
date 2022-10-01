@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Munich",
+    city: "Munich",
+    country: "Germany",
+    lattitude: 48.13512,
+    longitude: 11.58198,
+    arrivalDay: "2022-09-18",
+    departureDay: "2022-10-01",
+    video: "https://www.youtube.com/watch?v=NfSHrynaENI",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=194Pm3DXudT0JV9MN53flZIaUdbyOvwY&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/CjLvPeprL0g/", // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CjAxxnOgtMh/", // instagram reel
+    housing: 2839,
+    spending: 961,
+  },
+  {
     key: "Istanbul",
     city: "Istanbul",
     country: "Türkiye",
