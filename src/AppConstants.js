@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Ho Chi Minh City",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    lattitude: 10.8231,
+    longitude: 106.6297,
+    arrivalDay: "2022-11-06",
+    departureDay: "2022-11-22",
+    video: "https://www.youtube.com/watch?v=PLSVcWGMceY",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1lJ-xrGtrSxMX9TC0hm84HrLDGeMcLiQ&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/ClQ1_IPyzXn/", // b.engphotography
+    dancePost: "https://www.instagram.com/p/ClOZsGtgGMw/", // instagram reel
+    housing: 632,
+    spending: 516,
+  },
+  {
     key: "Tokyo",
     city: "Tokyo",
     country: "Japan",
