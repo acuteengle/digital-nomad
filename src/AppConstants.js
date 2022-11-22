@@ -1,6 +1,40 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Tokyo",
+    city: "Tokyo",
+    country: "Japan",
+    lattitude: 35.6762,
+    longitude: 139.6503,
+    arrivalDay: "2022-11-02",
+    departureDay: "2022-11-06",
+    video: null,
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CkvDgzcydQv/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CkZW_6YgvwG/", // instagram reel
+    housing: 818,
+    spending: 2163,
+  },
+  {
+    key: "Korea",
+    city: "Seoul",
+    country: "Korea",
+    lattitude: 35.9078,
+    longitude: 127.7669,
+    arrivalDay: "2022-10-23",
+    departureDay: "2022-11-02",
+    video: "https://www.youtube.com/watch?v=7KwVye0oE7I",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1H8Szm0uSKBzcg2fQ5wJ0HqJ86GwgYAw&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/ClBEgnCuMO9/", // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CkuT2BGA7Xd/", // instagram reel
+    housing: 1136,
+    spending: 1918,
+  },
+  {
     key: "Munich",
     city: "Munich",
     country: "Germany",
@@ -357,4 +391,4 @@ export const LOCATIONS = [
     housing: 1131,
     spending: 1387,
   }
-]
+];

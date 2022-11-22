@@ -35,7 +35,7 @@ export const City = () => {
 
   const startDate = dayjs(arrivalDay);
   const endDate = dayjs(departureDay);
-  const weeks = endDate.diff(startDate, 'weeks');
+  const weeks = Math.ceil(endDate.diff(startDate, 'weeks', true));
 
   return (
     <Container className="pageContainer">
