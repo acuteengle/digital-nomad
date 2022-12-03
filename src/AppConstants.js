@@ -154,23 +154,6 @@ export const LOCATIONS = [
     spending: 2340,
   },
   {
-    key: "DMV",
-    city: "DMV",
-    country: "(DC, Maryland, Virginia), USA",
-    lattitude: 38.90719,
-    longitude: -77.03687,
-    arrivalDay: "2022-06-15",
-    departureDay: "2022-07-06",
-    video: "https://www.youtube.com/watch?v=KtlpRVocuAY",
-    map: null,
-    blogPost: null,
-    personalInstagramPost: "", // acuteengle
-    photosPost: "https://www.instagram.com/p/CgPGUeENLCN/", // b.engphotography
-    dancePost: "https://www.instagram.com/reel/CfsPwLngIZI/", // instagram reel
-    housing: null,
-    spending: null,
-  },
-  {
     key: "Tamarindo",
     city: "Tamarindo",
     country: "Costa Rica",
