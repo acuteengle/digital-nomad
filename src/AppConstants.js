@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Taipei",
+    city: "Taipei",
+    country: "Taiwan",
+    lattitude: 25.0330,
+    longitude: 121.5654,
+    arrivalDay: "2022-11-23",
+    departureDay: "2022-12-05",
+    video: "https://www.youtube.com/watch?v=Rn0fNOyDRWY",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=110stuUfjlXhgxgKOgJhTdBZfM3oCQ2c&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/CmEUG9kPuY0/", // acuteengle
+    photosPost: "https://www.instagram.com/p/Cl8VHThSme3/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/Clv_niXgECE/", // instagram reel
+    housing: 1470,
+    spending: 1122,
+  },
+  {
     key: "Ho Chi Minh City",
     city: "Ho Chi Minh City",
     country: "Vietnam",
