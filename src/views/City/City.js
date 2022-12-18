@@ -55,7 +55,7 @@ export const City = () => {
       </p>
       <h3 className="spaceTop">"Links"</h3>
       {map &&
-        <p className="indent"><a href={map} target="_blank" rel="noreferrer">recs</a></p>
+        <p className="indent clickable" onClick={() => setModalLink(map)}>map</p>
       }
       {video &&
         <p className="indent clickable" onClick={() => setModalLink(video)}>recap</p>

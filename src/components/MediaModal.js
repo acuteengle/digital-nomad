@@ -7,6 +7,7 @@ export const MediaModal = ({ show, onHide, modalLink }) => {
 
   let BodyComponent;
   let size;
+  let height;
   if (modalLink.includes('youtube')) {
     /*
       Example normal link:
@@ -18,9 +19,19 @@ export const MediaModal = ({ show, onHide, modalLink }) => {
 
     const embedLink = modalLink.replace('watch?v=', 'embed/');
 
-    BodyComponent = <iframe width="560" height="315" src={embedLink} title="YouTube video player" allowFullScreen={true} />
+    BodyComponent = <iframe src={embedLink} title="YouTube video player" style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 0,
+      width: '100%',
+      height: '100%',
+      border: 'none',
+    }} allowFullScreen={true} />
 
-    size = 'lg';
+    size = 'xl';
+    height = '60vh';
   }
   else if (modalLink.includes('instagram')) {
     /*
@@ -37,6 +48,32 @@ export const MediaModal = ({ show, onHide, modalLink }) => {
 
     size = 'md';
   }
+  else if (modalLink.includes('maps')) {
+    /*
+      Example normal link:
+      https://www.google.com/maps/d/u/0/edit?mid=194Pm3DXudT0JV9MN53flZIaUdbyOvwY&usp=sharing
+
+      Example embed link:
+      https://www.google.com/maps/d/u/0/embed?mid=194Pm3DXudT0JV9MN53flZIaUdbyOvwY&ehbc=2E312F
+    */
+
+    let embedLink = modalLink.replace('usp=sharing', 'ehbc=2E312F');
+    embedLink = embedLink.replace('edit', 'embed');
+
+    BodyComponent = <iframe src={embedLink} title="My Map" style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 0,
+      width: '100%',
+      height: '100%',
+      border: 'none',
+    }} frameBorder="1" />
+
+    size = 'xl';
+    height = '90vh';
+  }
 
   return (
     <Modal
@@ -47,7 +84,7 @@ export const MediaModal = ({ show, onHide, modalLink }) => {
       centered
     >
       <Modal.Body>
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ width: "100%", height, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           {BodyComponent}
         </div>
       </Modal.Body>
