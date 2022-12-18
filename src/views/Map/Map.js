@@ -41,7 +41,10 @@ export const Map = () => {
         ]}
         events={{
           [LeafletMap.selectors.point]: {
-            click: (d => setSelectedLocation(d.properties))
+            click: (d => {
+              if (d.properties.cluster) return;
+              setSelectedLocation(d.properties);
+            })
           }
         }}
       />
