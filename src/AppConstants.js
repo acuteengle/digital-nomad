@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Bangkok",
+    city: "Bangkok",
+    country: "Thailand",
+    lattitude: 13.7563,
+    longitude: 100.5018,
+    arrivalDay: "2022-12-05",
+    departureDay: "2022-12-20",
+    video: "https://www.youtube.com/watch?v=nb-B4mnSuuA",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=14fVJTbgFC_BAQI_JppavtTq9mwL3bNs&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/CmjvqvSukO9/", // acuteengle
+    photosPost: "https://www.instagram.com/p/Cmjv7mbuliJ/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CmQS3m-A36t/", // instagram reel
+    housing: 492,
+    spending: 1093,
+  },
+  {
     key: "Taipei",
     city: "Taipei",
     country: "Taiwan",
