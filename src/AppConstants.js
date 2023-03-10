@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Puerto Vallarta",
+    city: "Puerto Vallarta",
+    country: "Mexico",
+    lattitude: 20.6534,
+    longitude: 105.2253,
+    arrivalDay: "2023-02-20",
+    departureDay: "2023-03-03",
+    video: "https://www.youtube.com/watch?v=sJxH0MQrdqE",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1o3PKD8n0dhUrBBwzhHFqJiLGOmO11J4&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/Cpde_VRuca9/", // acuteengle
+    photosPost: "https://www.instagram.com/p/CpYhdczuI1p/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CpT1nZjgMKB/", // instagram reel
+    housing: 1735,
+    spending: 1220,
+  },
+  {
     key: "Bangkok",
     city: "Bangkok",
     country: "Thailand",
