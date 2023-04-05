@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Mexico City 2",
+    city: "Mexico City",
+    country: "Mexico (2)",
+    lattitude: 19.4326,
+    longitude: -99.1332,
+    arrivalDay: "2023-03-03",
+    departureDay: "2023-03-26",
+    video: "https://www.youtube.com/watch?v=L2mjscXjXA4",
+    map: "https://www.google.com/maps/d/edit?mid=1IoC6XarVzTrgN_w61XZkPyQ5xzOMoJ3y&usp=sharing",
+    blogPost: "https://acuteengle.wordpress.com/2023/04/05/mexico-city/",
+    personalInstagramPost: "https://www.instagram.com/p/CqTHfuru0c8/", // acuteengle
+    photosPost: "https://www.instagram.com/p/CqTmJmgOeP7/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/Cp1Boi0gBrn/", // instagram reel
+    housing: 1192,
+    spending: 1414,
+  },
+  {
     key: "Puerto Vallarta",
     city: "Puerto Vallarta",
     country: "Mexico",
@@ -10,7 +27,7 @@ export const LOCATIONS = [
     departureDay: "2023-03-03",
     video: "https://www.youtube.com/watch?v=sJxH0MQrdqE",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1o3PKD8n0dhUrBBwzhHFqJiLGOmO11J4&usp=sharing",
-    blogPost: null,
+    blogPost: "https://acuteengle.wordpress.com/2023/03/18/pvr/",
     personalInstagramPost: "https://www.instagram.com/p/Cpde_VRuca9/", // acuteengle
     photosPost: "https://www.instagram.com/p/CpYhdczuI1p/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/CpT1nZjgMKB/", // instagram reel
