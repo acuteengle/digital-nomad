@@ -15,7 +15,7 @@ export const LOCATIONS = [
     photosPost: "https://www.instagram.com/p/Crbp10cOznt/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/CrRQdtwgkWt/", // instagram reel
     housing: 369,
-    spending: 962,
+    spending: 933,
   },
   {
     key: "Mexico City 2",
