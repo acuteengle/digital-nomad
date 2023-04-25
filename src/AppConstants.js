@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Buenos Aires",
+    city: "Buenos Aires",
+    country: "Argentina",
+    lattitude: -34.6037,
+    longitude: -58.3816,
+    arrivalDay: "2023-03-26",
+    departureDay: "2023-04-23",
+    video: "https://www.youtube.com/watch?v=ajpDh3LwX80",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1eoWgLMe4P7i1_4WwHMtFaCk6Dur0IZ0&usp=sharing",
+    blogPost: "https://acuteengle.wordpress.com/2023/04/24/%f0%9f%87%a6%f0%9f%87%b7-buenos-aires/",
+    personalInstagramPost: "https://www.instagram.com/p/CrY2dr5u9l9/", // acuteengle
+    photosPost: "https://www.instagram.com/p/Crbp10cOznt/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CrRQdtwgkWt/", // instagram reel
+    housing: 369,
+    spending: 962,
+  },
+  {
     key: "Mexico City 2",
     city: "Mexico City",
     country: "Mexico (2)",
