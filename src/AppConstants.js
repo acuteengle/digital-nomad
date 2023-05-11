@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Lima",
+    city: "Lima",
+    country: "Peru",
+    lattitude: -12.0464,
+    longitude: -77.0428,
+    arrivalDay: "2023-04-23",
+    departureDay: "2023-05-07",
+    video: null,
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1iS0y1nTPGQQg2VXtOntGp_bnp7QnyEI&usp=sharing",
+    blogPost: "https://acuteengle.wordpress.com/2023/05/10/%f0%9f%87%b5%f0%9f%87%aa-lima/",
+    personalInstagramPost: "https://www.instagram.com/p/Cr6HPmzOXfc/", // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CrqzhWzgcFE/", // instagram reel
+    housing: 778,
+    spending: 1280,
+  },
+  {
     key: "Buenos Aires",
     city: "Buenos Aires",
     country: "Argentina",
