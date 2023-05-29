@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Cusco",
+    city: "Cusco",
+    country: "Peru",
+    lattitude: -13.5320,
+    longitude: -71.9675,
+    arrivalDay: "2023-05-07",
+    departureDay: "2023-05-21",
+    video: "https://www.youtube.com/watch?v=kugT_tIFqDA",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1K9O4r3ZN7NHPekRXeIYlhyU07qhh5yc&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/CslxMH3OshN/", // acuteengle
+    photosPost: "https://www.instagram.com/p/CsujtwqNw4g/", // b.engphotography
+    dancePost: "https://www.instagram.com/reel/CscbNS2ABVN/", // instagram reel
+    housing: 742,
+    spending: 1668,
+  },
+  {
     key: "Lima",
     city: "Lima",
     country: "Peru",
@@ -8,7 +25,7 @@ export const LOCATIONS = [
     longitude: -77.0428,
     arrivalDay: "2023-04-23",
     departureDay: "2023-05-07",
-    video: null,
+    video: "https://www.youtube.com/watch?v=vwdFoIR85Sg",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1iS0y1nTPGQQg2VXtOntGp_bnp7QnyEI&usp=sharing",
     blogPost: "https://acuteengle.wordpress.com/2023/05/10/%f0%9f%87%b5%f0%9f%87%aa-lima/",
     personalInstagramPost: "https://www.instagram.com/p/Cr6HPmzOXfc/", // acuteengle
