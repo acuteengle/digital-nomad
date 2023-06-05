@@ -10,7 +10,7 @@ export const LOCATIONS = [
     departureDay: "2023-05-21",
     video: "https://www.youtube.com/watch?v=kugT_tIFqDA",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1K9O4r3ZN7NHPekRXeIYlhyU07qhh5yc&usp=sharing",
-    blogPost: null,
+    blogPost: "https://acuteengle.wordpress.com/2023/06/04/%f0%9f%8f%94-cusco/",
     personalInstagramPost: "https://www.instagram.com/p/CslxMH3OshN/", // acuteengle
     photosPost: "https://www.instagram.com/p/CsujtwqNw4g/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/CscbNS2ABVN/", // instagram reel
