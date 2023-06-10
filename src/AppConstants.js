@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Rio de Janeiro",
+    city: "Rio de Janeiro",
+    country: "Brazil",
+    lattitude: -22.9068,
+    longitude: -43.1729,
+    arrivalDay: "2023-05-21",
+    departureDay: "2023-06-11",
+    video: "https://www.youtube.com/watch?v=UGI8friB6NQ",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1OW_hM36epTdpWBKdtSewIFgXZQsLZ2M&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/CtSOZHzuJTp/", // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/Cs9_HHBA_zm/", // instagram reel
+    housing: 1174,
+    spending: 1329,
+  },
+  {
     key: "Cusco",
     city: "Cusco",
     country: "Peru",
