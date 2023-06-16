@@ -10,9 +10,9 @@ export const LOCATIONS = [
     departureDay: "2023-06-11",
     video: "https://www.youtube.com/watch?v=UGI8friB6NQ",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1OW_hM36epTdpWBKdtSewIFgXZQsLZ2M&usp=sharing",
-    blogPost: null,
+    blogPost: "https://acuteengle.wordpress.com/2023/06/16/%f0%9f%87%a7%f0%9f%87%b7-rio-de-janeiro/",
     personalInstagramPost: "https://www.instagram.com/p/CtSOZHzuJTp/", // acuteengle
-    photosPost: null, // b.engphotography
+    photosPost: "https://www.instagram.com/p/Cta-8ruuJp4/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/Cs9_HHBA_zm/", // instagram reel
     housing: 1174,
     spending: 1329,
