@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Vancouver",
+    city: "Vancouver",
+    country: "British Columbia, Canada",
+    lattitude: 49.2827,
+    longitude: -123.1207,
+    arrivalDay: "2023-06-26",
+    departureDay: "2023-07-09",
+    video: "https://www.youtube.com/watch?v=Q-PVGAEz9R0",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1NJcD7XoJ9EEUaLgtG6Dyk4zmnZOGCV0&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: "https://www.instagram.com/p/Cue8YEGRbVY/", // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 3921,
+    spending: 1462,
+  },
+  {
     key: "Rio de Janeiro",
     city: "Rio de Janeiro",
     country: "Brazil",
