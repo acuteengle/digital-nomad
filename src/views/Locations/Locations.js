@@ -14,7 +14,7 @@ export const Locations = () => {
   return (
     <Container className="pageContainer">
       <h1 className="pageTitle">My Journey</h1>
-      <i>most recent at the top</i>
+      <p>(most recent at the top)</p>
       <Timeline position="alternate">
         {LOCATIONS.map((location, index) => {
           return (

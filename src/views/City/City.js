@@ -35,6 +35,7 @@ export const City = () => {
 
   return (
     <Container className="pageContainer">
+      <p className="backLink" onClick={() => navigate('/')}>&larr; back</p>
       <BasicInfo cityData={cityData} />
       <h3 className="spaceTop">Links</h3>
       {map &&

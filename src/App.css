@@ -29,6 +29,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.backLink {
+  opacity: 0.7 !important;
+}
+
+.backLink:hover {
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
+
 .pageContainer {
   margin-top: 64px;
 }
