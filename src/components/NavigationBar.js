@@ -12,9 +12,6 @@ export const NavigationBar = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link href="/locations">
-            Locations
-          </Nav.Link>
           <Nav.Link href="/map">
             Map
           </Nav.Link>

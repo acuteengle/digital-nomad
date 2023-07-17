@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import dayjs from "dayjs";
 import { useParams, useNavigate } from 'react-router-dom';
 import { Container } from "react-bootstrap";
 import { LOCATIONS } from 'AppConstants';
 import { Loader } from 'components/Loader';
 import { MediaModal } from 'components/MediaModal';
+import { BasicInfo } from "./BasicInfo";
 
 export const City = () => {
   const navigate = useNavigate();
@@ -31,46 +31,29 @@ export const City = () => {
 
   if (!cityData) return <Loader />;
 
-  const { city, country, arrivalDay, departureDay, housing, spending, map, video, blogPost, personalInstagramPost, photosPost, dancePost } = cityData;
-
-  const startDate = dayjs(arrivalDay);
-  const endDate = dayjs(departureDay);
-  const weeks = Math.ceil(endDate.diff(startDate, 'weeks', true));
+  const { map, video, blogPost, personalInstagramPost, photosPost, dancePost } = cityData;
 
   return (
     <Container className="pageContainer">
-      <h1>{`${city}, ${country}`}</h1>
-      <h3 className="spaceTop">"Dates"</h3>
-      <p className="indent">{`${startDate.format('MMM YYYY')} - ${endDate.format('MMM YYYY')}`}</p>
-      <p className="indent">{`(${weeks} weeks)`}</p>
-      <h3 className="spaceTop">"Costs (monthly)"</h3>
-      <p className="indent">
-        {`$${housing} (housing)`}
-      </p>
-      <p className="indent">
-        {`$${spending} (spending)`}
-      </p>
-      <p className="indent">
-        {`$${housing + spending} (total)`}
-      </p>
-      <h3 className="spaceTop">"Links"</h3>
+      <BasicInfo cityData={cityData} />
+      <h3 className="spaceTop">Links</h3>
       {map &&
-        <p className="indent clickable" onClick={() => setModalLink(map)}>map</p>
+        <p className="indent clickable" onClick={() => setModalLink(map)}>recs</p>
       }
       {video &&
-        <p className="indent clickable" onClick={() => setModalLink(video)}>recap</p>
+        <p className="indent clickable" onClick={() => setModalLink(video)}>recap video</p>
       }
       {blogPost &&
-        <p className="indent"><a href={blogPost} target="_blank" rel="noreferrer">blog</a></p>
+        <p className="indent"><a href={blogPost} target="_blank" rel="noreferrer">blog post</a></p>
       }
       {personalInstagramPost &&
-        <p className="indent clickable" onClick={() => setModalLink(personalInstagramPost)}>post</p>
+        <p className="indent clickable" onClick={() => setModalLink(personalInstagramPost)}>instagram post</p>
       }
       {photosPost &&
-        <p className="indent clickable" onClick={() => setModalLink(photosPost)}>pics</p>
+        <p className="indent clickable" onClick={() => setModalLink(photosPost)}>photos</p>
       }
       {dancePost &&
-        <p className="indent clickable" onClick={() => setModalLink(dancePost)}>dance</p>
+        <p className="indent clickable" onClick={() => setModalLink(dancePost)}>dance video</p>
       }
       <MediaModal show={modalLink} onHide={() => setModalLink(null)} modalLink={modalLink} />
     </Container >

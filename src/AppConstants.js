@@ -119,6 +119,7 @@ export const LOCATIONS = [
     housing: 1735,
     spending: 1220,
   },
+  '2023',
   {
     key: "Bangkok",
     city: "Bangkok",
@@ -408,6 +409,7 @@ export const LOCATIONS = [
     housing: 1553,
     spending: 1634,
   },
+  '2022',
   {
     key: "Barcelona",
     city: "Barcelona",
@@ -543,5 +545,6 @@ export const LOCATIONS = [
     dancePost: null, // instagram reel
     housing: 1131,
     spending: 1387,
-  }
+  },
+  '2021'
 ];
