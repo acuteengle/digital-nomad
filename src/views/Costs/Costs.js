@@ -25,7 +25,7 @@ ChartJS.register(
 export const Costs = () => {
   defaults.font.family = "Helvetica Neue";
 
-  const sortedLocations = [...LOCATIONS].filter(location => location.housing !== null && location.spending !== null);
+  const sortedLocations = [...LOCATIONS].filter(location => typeof location === 'object' && location.housing !== null && location.spending !== null);
   sortedLocations.sort((a, b) => a.housing + a.spending - b.housing - b.spending);
 
   const labels = [];

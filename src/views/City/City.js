@@ -16,7 +16,7 @@ export const City = () => {
 
   useEffect(() => {
 
-    const data = LOCATIONS.find(location => location.key === cityId);
+    const data = LOCATIONS.find(location => typeof location === 'object' && location.key === cityId);
 
     if (!data) {
       navigate("/NotFound");

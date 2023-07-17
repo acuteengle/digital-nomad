@@ -24,10 +24,10 @@ export const Locations = () => {
                 {index !== LOCATIONS.length - 1 && <TimelineConnector />}
               </TimelineSeparator>
               <TimelineContent>
-                {typeof location === 'string' ? (
-                  <h3>{location}</h3>
-                ) : (
+                {typeof location === 'object' ? (
                   <p className="clickable" onClick={() => navigate(`/city/${location.key}`)}>{`${location.city}, ${location.country}`}</p>
+                ) : (
+                  <h3>{location}</h3>
                 )}
               </TimelineContent>
             </TimelineItem>

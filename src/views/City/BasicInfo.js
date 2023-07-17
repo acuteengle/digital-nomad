@@ -2,6 +2,9 @@ import React from "react";
 import dayjs from "dayjs";
 
 export const BasicInfo = ({ cityData }) => {
+
+  if (!cityData) return null;
+
   const { city, country, arrivalDay, departureDay, housing, spending } = cityData;
 
   const startDate = dayjs(arrivalDay);
