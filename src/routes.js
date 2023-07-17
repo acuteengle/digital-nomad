@@ -2,7 +2,6 @@ import { Map } from 'views/Map';
 import { Costs } from 'views/Costs';
 import { Locations } from 'views/Locations';
 import { City } from 'views/City';
-import { Socials } from 'views/Socials';
 import { NotFound } from 'views/NotFound';
 
 export const ROUTES = [
@@ -27,11 +26,6 @@ export const ROUTES = [
     path: '/city',
     View: (props) => <City {...props} />,
     slug: ':cityId',
-  },
-  { // external links to my photography instagram and youtube and serena's blog
-    label: 'Socials',
-    path: '/socials',
-    View: (props) => <Socials {...props} />
   },
   {
     label: 'Not Found',

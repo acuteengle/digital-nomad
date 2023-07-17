@@ -18,9 +18,6 @@ export const NavigationBar = () => (
           <Nav.Link href="/costs">
             Costs
           </Nav.Link>
-          <Nav.Link href="/socials">
-            Socials
-          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
