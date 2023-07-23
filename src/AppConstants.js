@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Toronto",
+    city: "Toronto",
+    country: "Ontario, Canada",
+    lattitude: 43.6532,
+    longitude: -79.3832,
+    arrivalDay: "2023-07-09",
+    departureDay: "2023-07-23",
+    video: "https://www.youtube.com/watch?v=_z0athgf4x8",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1813Bkyo42Rvwe-x47J9i9sGEjh8eoNw&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CvBbi1jN2mf/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 3708,
+    spending: 1568,
+  },
+  {
     key: "Vancouver",
     city: "Vancouver",
     country: "British Columbia, Canada",
