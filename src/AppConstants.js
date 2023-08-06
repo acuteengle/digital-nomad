@@ -10,7 +10,7 @@ export const LOCATIONS = [
     departureDay: "2023-08-06",
     video: "https://www.youtube.com/watch?v=2ppFfevyDag",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1VJ0l1QLYAENQKZmVzSN7qpGjCO03Rvk&usp=sharing",
-    blogPost: null,
+    blogPost: "https://acuteengle.wordpress.com/2023/08/06/%f0%9f%9a%b2-montreal/",
     personalInstagramPost: null, // acuteengle
     photosPost: null, // b.engphotography
     dancePost: null, // instagram reel
