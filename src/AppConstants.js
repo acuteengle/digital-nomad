@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Montreal",
+    city: "Montreal",
+    country: "Quebec, Canada",
+    lattitude: 45.5019,
+    longitude: -73.5674,
+    arrivalDay: "2023-07-23",
+    departureDay: "2023-08-06",
+    video: "https://www.youtube.com/watch?v=2ppFfevyDag",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1VJ0l1QLYAENQKZmVzSN7qpGjCO03Rvk&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 2273,
+    spending: 1760,
+  },
+  {
     key: "Toronto",
     city: "Toronto",
     country: "Ontario, Canada",
@@ -10,7 +27,7 @@ export const LOCATIONS = [
     departureDay: "2023-07-23",
     video: "https://www.youtube.com/watch?v=_z0athgf4x8",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1813Bkyo42Rvwe-x47J9i9sGEjh8eoNw&usp=sharing",
-    blogPost: null,
+    blogPost: "https://acuteengle.wordpress.com/2023/07/31/%f0%9f%8c%83-toronto/",
     personalInstagramPost: null, // acuteengle
     photosPost: "https://www.instagram.com/p/CvBbi1jN2mf/", // b.engphotography
     dancePost: null, // instagram reel

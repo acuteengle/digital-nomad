@@ -6,7 +6,7 @@ export const MapModal = ({ show, onHide, cityData }) => (
   <Modal
     show={show}
     onHide={onHide}
-    size='md'
+    size='lg'
     centered
   >
     <Modal.Body>
