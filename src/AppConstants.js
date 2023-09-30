@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Prague",
+    city: "Prague",
+    country: "Czech Republic",
+    lattitude: 50.0755,
+    longitude: 14.4378,
+    arrivalDay: "2023-09-25",
+    departureDay: "2023-09-30",
+    video: "https://www.youtube.com/watch?v=4YtwRI61y0A",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1ewUwUqEe8d6Gz2QvBwihftsSqRJ3ttQ&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 2067,
+    spending: 1174,
+  },
+  {
     key: "Montreal",
     city: "Montreal",
     country: "Quebec, Canada",
