@@ -19,6 +19,24 @@ export const LOCATIONS = [
   },
   {
     shortTrip: true,
+    key: "Venice",
+    city: "Venice",
+    country: "Italy",
+    lattitude: 45.4408,
+    longitude: 12.3155,
+    arrivalDay: "2023-09-22",
+    departureDay: "2023-09-24",
+    video: "https://www.youtube.com/watch?v=fU8d0PJHBn0",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1fuXBg3p4qN9oV8fDGAGTS6eFjbWKabA&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Verona",
     city: "Verona",
     country: "Italy",
