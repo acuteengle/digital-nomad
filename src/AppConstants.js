@@ -2,13 +2,31 @@
 export const LOCATIONS = [
   {
     shortTrip: true,
+    key: "Zurich",
+    city: "Zurich",
+    country: "Switzerland",
+    lattitude: 47.3769,
+    longitude: 8.5417,
+    arrivalDay: "2023-10-13",
+    departureDay: "2023-10-15",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1acepJ9O-R3LwWdTF_w0SYnteHawdi50&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Lucerne",
     city: "Lucerne",
     country: "Switzerland",
     lattitude: 47.0502,
     longitude: 8.3093,
-    arrivalDay: "2023-10-10",
-    departureDay: "2023-10-11",
+    arrivalDay: "2023-10-11",
+    departureDay: "2023-10-13",
     video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1AUzUGfTKVUA0chwL4Id7Bd7ySDd6P4A&usp=sharing",
     blogPost: null,
