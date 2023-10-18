@@ -179,6 +179,24 @@ export const LOCATIONS = [
     spending: null,
   },
   {
+    shortTrip: true,
+    key: "Biwabik",
+    city: "Biwabik",
+    country: "Minnesota, USA",
+    lattitude: 47.5330,
+    longitude: -92.3402,
+    arrivalDay: "2023-08-24",
+    departureDay: "2023-08-28",
+    video: null,
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/Cw1BQChuVvs/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Montreal",
     city: "Montreal",
     country: "Quebec, Canada",
