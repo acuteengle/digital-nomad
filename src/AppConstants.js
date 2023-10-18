@@ -19,13 +19,31 @@ export const LOCATIONS = [
   },
   {
     shortTrip: true,
+    key: "Verona",
+    city: "Verona",
+    country: "Italy",
+    lattitude: 45.4384,
+    longitude: 10.9916,
+    arrivalDay: "2023-09-20",
+    departureDay: "2023-09-22",
+    video: "https://www.youtube.com/watch?v=fU8d0PJHBn0",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1iE_oI5HlgnZ6m9Y15hfC4pMRPLSLCZs&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/Cxnya0SNsgD/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Bologna",
     city: "Bologna",
     country: "Italy",
     lattitude: 44.4949,
     longitude: 11.3426,
     arrivalDay: "2023-09-17",
-    departureDay: "2023-09-19",
+    departureDay: "2023-09-20",
     video: "https://www.youtube.com/watch?v=fU8d0PJHBn0",
     map: "https://www.google.com/maps/d/u/0/edit?mid=12elvpc6vJTeLxSqLrTJqImL8yUSWbeE&usp=sharing",
     blogPost: null,
