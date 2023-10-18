@@ -120,6 +120,24 @@ export const LOCATIONS = [
     spending: 1280,
   },
   {
+    shortTrip: true,
+    key: "Colonia del Sacramento",
+    city: "Colonia del Sacramento",
+    country: "Uruguay",
+    lattitude: -34.4635,
+    longitude: -57.8346,
+    arrivalDay: "2023-04-21",
+    departureDay: "2023-04-22",
+    video: null,
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/Crbp10cOznt/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Buenos Aires",
     city: "Buenos Aires",
     country: "Argentina",
@@ -131,7 +149,7 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/u/0/edit?mid=1eoWgLMe4P7i1_4WwHMtFaCk6Dur0IZ0&usp=sharing",
     blogPost: "https://acuteengle.wordpress.com/2023/04/24/%f0%9f%87%a6%f0%9f%87%b7-buenos-aires/",
     personalInstagramPost: "https://www.instagram.com/p/CrY2dr5u9l9/", // acuteengle
-    photosPost: "https://www.instagram.com/p/Crbp10cOznt/", // b.engphotography
+    photosPost: null, // b.engphotography
     dancePost: "https://www.instagram.com/reel/CrRQdtwgkWt/", // instagram reel
     housing: 369,
     spending: 933,
@@ -227,8 +245,8 @@ export const LOCATIONS = [
     key: "Tokyo",
     city: "Tokyo",
     country: "Japan",
-    lattitude: null,
-    longitude: null,
+    lattitude: 35.6764,
+    longitude: 139.6500,
     arrivalDay: "2022-11-02",
     departureDay: "2022-11-06",
     video: null,
