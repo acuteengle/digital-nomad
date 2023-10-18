@@ -779,6 +779,24 @@ export const LOCATIONS = [
     spending: 1902,
   },
   {
+    shortTrip: true,
+    key: "Scottsdale",
+    city: "Scottsdale",
+    country: "Arizona, USA",
+    lattitude: 33.4949,
+    longitude: -111.9217,
+    arrivalDay: "2021-05-13",
+    departureDay: "2021-05-16",
+    video: "https://www.youtube.com/watch?v=QZDw7pZZmMc",
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Austin",
     city: "Austin",
     country: "Texas, USA",
