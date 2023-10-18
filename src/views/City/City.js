@@ -47,13 +47,13 @@ export const City = () => {
       {blogPost &&
         <p className="indent"><a href={blogPost} target="_blank" rel="noreferrer">blog post</a></p>
       }
-      {personalInstagramPost &&
+      {false && personalInstagramPost &&
         <p className="indent clickable" onClick={() => setModalLink(personalInstagramPost)}>instagram post</p>
       }
       {photosPost &&
         <p className="indent clickable" onClick={() => setModalLink(photosPost)}>photos</p>
       }
-      {dancePost &&
+      {false && dancePost &&
         <p className="indent clickable" onClick={() => setModalLink(dancePost)}>dance video</p>
       }
       <MediaModal show={modalLink} onHide={() => setModalLink(null)} modalLink={modalLink} />

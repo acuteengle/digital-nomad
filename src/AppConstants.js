@@ -2,6 +2,24 @@
 export const LOCATIONS = [
   {
     shortTrip: true,
+    key: "Munich 2",
+    city: "Munich",
+    country: "Germany (2)",
+    lattitude: 48.13512,
+    longitude: 11.58198,
+    arrivalDay: "2023-10-09",
+    departureDay: "2023-10-10",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=194Pm3DXudT0JV9MN53flZIaUdbyOvwY&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Nuremberg",
     city: "Nuremberg",
     country: "Germany",
@@ -14,7 +32,7 @@ export const LOCATIONS = [
     blogPost: null,
     personalInstagramPost: null, // acuteengle
     photosPost: "https://www.instagram.com/p/CybdFDvud7M/", // b.engphotography
-    dancePost: null, // instagram reel
+    dancePost: "https://www.instagram.com/reel/CyJlvn1Mf8okHUreQBIiiUs2JhoZGQu4S9Hhcs0/", // instagram reel
     housing: null,
     spending: null,
   },
