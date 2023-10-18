@@ -660,6 +660,24 @@ export const LOCATIONS = [
   },
   '2022',
   {
+    shortTrip: true,
+    key: "Myrtle Beach",
+    city: "Myrtle Beach",
+    country: "South Carolina, USA",
+    lattitude: 33.6954,
+    longitude: -78.8802,
+    arrivalDay: "2021-11-03",
+    departureDay: "2021-11-07",
+    video: "https://www.youtube.com/watch?v=IQzkERUWfEs",
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Barcelona",
     city: "Barcelona",
     country: "Spain",
