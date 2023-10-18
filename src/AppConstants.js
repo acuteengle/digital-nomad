@@ -420,7 +420,7 @@ export const LOCATIONS = [
     spending: null,
   },
   {
-    key: "Korea",
+    key: "Seoul",
     city: "Seoul",
     country: "Korea",
     lattitude: 35.9078,
@@ -435,6 +435,24 @@ export const LOCATIONS = [
     dancePost: "https://www.instagram.com/reel/CkuT2BGA7Xd/", // instagram reel
     housing: 1136,
     spending: 1918,
+  },
+  {
+    shortTrip: true,
+    key: "Miami",
+    city: "Miami",
+    country: "Florida, USA",
+    lattitude: 25.7617,
+    longitude: -80.1918,
+    arrivalDay: "2022-10-11",
+    departureDay: "2022-10-14",
+    video: null,
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
   },
   {
     key: "Munich",
