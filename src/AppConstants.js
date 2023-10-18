@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Berlin",
+    city: "Berlin",
+    country: "Germany",
+    lattitude: 52.5200,
+    longitude: 13.4050,
+    arrivalDay: "2023-09-30",
+    departureDay: "2023-10-07",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=16S-ccFJh4A0HYUGLavxf-_K2X99dZfQ&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CyZO_6KtN3j/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 1626,
+    spending: 1283,
+  },
+  {
     key: "Prague",
     city: "Prague",
     country: "Czech Republic",
