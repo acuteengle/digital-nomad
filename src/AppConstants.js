@@ -2,6 +2,24 @@
 export const LOCATIONS = [
   {
     shortTrip: true,
+    key: "Interlaken",
+    city: "Interlaken",
+    country: "Switzerland",
+    lattitude: 46.6863,
+    longitude: 7.8632,
+    arrivalDay: "2023-10-10",
+    departureDay: "2023-10-11",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CygCN1LNpxX/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Munich 2",
     city: "Munich",
     country: "Germany (2)",
