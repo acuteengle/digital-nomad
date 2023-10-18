@@ -1,6 +1,24 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    shortTrip: true,
+    key: "Nuremberg",
+    city: "Nuremberg",
+    country: "Germany",
+    lattitude: 49.4521,
+    longitude: 11.0767,
+    arrivalDay: "2023-10-07",
+    departureDay: "2023-10-09",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1T4rYhyMKRcqpeOa2cw_NjpVkwNanZYQ&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CybdFDvud7M/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Berlin",
     city: "Berlin",
     country: "Germany",
