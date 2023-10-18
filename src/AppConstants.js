@@ -2,6 +2,24 @@
 export const LOCATIONS = [
   {
     shortTrip: true,
+    key: "Lucerne",
+    city: "Lucerne",
+    country: "Switzerland",
+    lattitude: 47.0502,
+    longitude: 8.3093,
+    arrivalDay: "2023-10-10",
+    departureDay: "2023-10-11",
+    video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1AUzUGfTKVUA0chwL4Id7Bd7ySDd6P4A&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CyiGfBou3E4/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Interlaken",
     city: "Interlaken",
     country: "Switzerland",
@@ -24,7 +42,7 @@ export const LOCATIONS = [
     city: "Munich",
     country: "Germany (2)",
     lattitude: 48.13512,
-    longitude: 11.58198,
+    longitude: 10.58198,
     arrivalDay: "2023-10-09",
     departureDay: "2023-10-10",
     video: "https://www.youtube.com/watch?v=esIbnI4O9Pk",
@@ -284,7 +302,7 @@ export const LOCATIONS = [
     city: "Mexico City",
     country: "Mexico (2)",
     lattitude: 19.457450,
-    longitude: -97.333293,
+    longitude: -98.333293,
     arrivalDay: "2023-03-03",
     departureDay: "2023-03-26",
     video: "https://www.youtube.com/watch?v=L2mjscXjXA4",

@@ -13,7 +13,7 @@ export const Map = () => {
       <h1>Map</h1>
       <PigeonMap height={700} provider={stamenTerrain} defaultCenter={[35.977844, -7.986475]} defaultZoom={2}>
         <ZoomControl />
-        {LOCATIONS.filter(location => !location.shortTrip).map((location) => typeof location === 'object' ? (
+        {LOCATIONS.map((location) => typeof location === 'object' ? (
           <Marker
             width={50}
             anchor={[location.lattitude, location.longitude]}
