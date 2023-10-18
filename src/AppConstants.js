@@ -18,6 +18,24 @@ export const LOCATIONS = [
     spending: 1174,
   },
   {
+    shortTrip: true,
+    key: "Bologna",
+    city: "Bologna",
+    country: "Italy",
+    lattitude: 44.4949,
+    longitude: 11.3426,
+    arrivalDay: "2023-09-17",
+    departureDay: "2023-09-19",
+    video: "https://www.youtube.com/watch?v=fU8d0PJHBn0",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=12elvpc6vJTeLxSqLrTJqImL8yUSWbeE&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: "https://www.instagram.com/p/CxlMVIJNtXQ/", // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Montreal",
     city: "Montreal",
     country: "Quebec, Canada",
@@ -46,7 +64,7 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/u/0/edit?mid=1813Bkyo42Rvwe-x47J9i9sGEjh8eoNw&usp=sharing",
     blogPost: "https://acuteengle.wordpress.com/2023/07/31/%f0%9f%8c%83-toronto/",
     personalInstagramPost: null, // acuteengle
-    photosPost: "https://www.instagram.com/p/CvBbi1jN2mf/", // b.engphotography
+    photosPost: null, // b.engphotography
     dancePost: null, // instagram reel
     housing: 3708,
     spending: 1568,
