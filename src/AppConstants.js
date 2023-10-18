@@ -223,11 +223,12 @@ export const LOCATIONS = [
     spending: 516,
   },
   {
+    shortTrip: true,
     key: "Tokyo",
     city: "Tokyo",
     country: "Japan",
-    lattitude: 35.6762,
-    longitude: 139.6503,
+    lattitude: null,
+    longitude: null,
     arrivalDay: "2022-11-02",
     departureDay: "2022-11-06",
     video: null,
@@ -236,8 +237,8 @@ export const LOCATIONS = [
     personalInstagramPost: null, // acuteengle
     photosPost: "https://www.instagram.com/p/CkvDgzcydQv/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/CkZW_6YgvwG/", // instagram reel
-    housing: 818,
-    spending: 2163,
+    housing: null,
+    spending: null,
   },
   {
     key: "Korea",
@@ -553,7 +554,7 @@ export const LOCATIONS = [
     lattitude: 42.44396,
     longitude: - 76.50188,
     arrivalDay: "2021-07-10",
-    departureDay: "2021-07-16-",
+    departureDay: "2021-07-16",
     video: null,
     map: "https://www.google.com/maps/d/edit?mid=15HKdKVCjyra7A-ijAjaNUms4KkPIhC8b&usp=sharing",
     blogPost: "https://thequietchew.wordpress.com/2021/07/20/idyllic-pastures/",
