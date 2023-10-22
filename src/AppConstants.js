@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Paris",
+    city: "Paris",
+    country: "France",
+    lattitude: 48.8566,
+    longitude: 2.3522,
+    arrivalDay: "2023-10-15",
+    departureDay: "2023-10-22",
+    video: null,
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1Di1t-zN69mbs9znYi-X282iL7IMaxvM&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 2219,
+    spending: 1661,
+  },
+  {
     shortTrip: true,
     key: "Zurich",
     city: "Zurich",
@@ -13,7 +30,7 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/u/0/edit?mid=1acepJ9O-R3LwWdTF_w0SYnteHawdi50&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
-    photosPost: null, // b.engphotography
+    photosPost: "https://www.instagram.com/p/CylpLNUtHAM/", // b.engphotography
     dancePost: null, // instagram reel
     housing: null,
     spending: null,
