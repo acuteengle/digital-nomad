@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Map as PigeonMap, Marker, ZoomControl } from "pigeon-maps";
-import { stamenTerrain } from 'pigeon-maps/providers';
+import { osm } from 'pigeon-maps/providers';
 import { LOCATIONS } from "AppConstants";
 import { MapModal } from "components/MapModal";
 
@@ -11,7 +11,7 @@ export const Map = () => {
   return (
     <Container className="pageContainer">
       <h1>Map</h1>
-      <PigeonMap height={700} provider={stamenTerrain} defaultCenter={[35.977844, -7.986475]} defaultZoom={2}>
+      <PigeonMap height={700} provider={osm} defaultCenter={[35.977844, -7.986475]} defaultZoom={2}>
         <ZoomControl />
         {LOCATIONS.map((location) => typeof location === 'object' ? (
           <Marker
