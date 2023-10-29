@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Nice",
+    city: "Nice",
+    country: "France",
+    lattitude: 43.7102,
+    longitude: 7.2620,
+    arrivalDay: "2023-10-22",
+    departureDay: "2023-10-28",
+    video: "https://www.youtube.com/watch?v=eN7Erxb5L_E",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1KTT2DexSJRFJLTGYm5fSy1v9jxpvvHg&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 1572,
+    spending: 1632,
+  },
+  {
     key: "Paris",
     city: "Paris",
     country: "France",
@@ -8,7 +25,7 @@ export const LOCATIONS = [
     longitude: 2.3522,
     arrivalDay: "2023-10-15",
     departureDay: "2023-10-22",
-    video: null,
+    video: "https://www.youtube.com/watch?v=eN7Erxb5L_E",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1Di1t-zN69mbs9znYi-X282iL7IMaxvM&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
