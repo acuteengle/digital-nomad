@@ -1,6 +1,24 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    shortTrip: true,
+    key: "Monte Carlo",
+    city: "Monte Carlo",
+    country: "Monaco",
+    lattitude: 43.7384,
+    longitude: 7.4246,
+    arrivalDay: "2023-10-28",
+    departureDay: "2023-10-29",
+    video: "https://www.youtube.com/watch?v=eN7Erxb5L_E",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=16Yfyh6QNASZaFnVPntANpJolPZirSx4&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/Cy54X10sasnzwoGzBxAMolTzwzJbsAo0jSWilk0/", // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Nice",
     city: "Nice",
     country: "France",
