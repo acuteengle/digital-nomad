@@ -10,7 +10,7 @@ export const BasicInfo = ({ cityData }) => {
   const startDate = dayjs(arrivalDay);
   const endDate = dayjs(departureDay);
   const weeks = Math.ceil(endDate.diff(startDate, 'weeks', true));
-  const days = Math.ceil(endDate.diff(startDate, 'days', true)) + 1;
+  const days = Math.ceil(endDate.diff(startDate, 'days', true));
 
   return (
     <>
