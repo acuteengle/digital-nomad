@@ -2,6 +2,24 @@
 export const LOCATIONS = [
   {
     shortTrip: true,
+    key: "PlayaDelCarmen2",
+    city: "Playa del Carmen",
+    country: "Mexico (2)",
+    lattitude: 20.62955,
+    longitude: -88.07388,
+    arrivalDay: "2022-12-03",
+    departureDay: "2022-12-11",
+    video: null,
+    map: "https://www.google.com/maps/d/edit?mid=1uMiyc_1DfUAac3eYFNjUyCE5a44-t9nJ&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
+    shortTrip: true,
     key: "Monte Carlo",
     city: "Monte Carlo",
     country: "Monaco",
