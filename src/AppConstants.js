@@ -1,6 +1,24 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    shortTrip: true,
+    key: "HongKong",
+    city: "Hong Kong",
+    country: "China",
+    lattitude: 22.3193,
+    longitude: 114.1694,
+    arrivalDay: "2023-01-06",
+    departureDay: "2022-01-09",
+    video: null,
+    map: null,
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: null,
+    spending: null,
+  },
+  {
     key: "Taipei2",
     city: "Taipei",
     country: "Taiwan (2)",
