@@ -23,7 +23,7 @@ export const LOCATIONS = [
     city: "Taipei",
     country: "Taiwan (2)",
     lattitude: 25.0330,
-    longitude: 121.5654,
+    longitude: 122.5654,
     arrivalDay: "2023-12-25",
     departureDay: "2024-01-06",
     video: null,
