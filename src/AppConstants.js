@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Taipei2",
+    city: "Taipei",
+    country: "Taiwan (2)",
+    lattitude: 25.0330,
+    longitude: 121.5654,
+    arrivalDay: "2023-12-25",
+    departureDay: "2024-01-06",
+    video: null,
+    map: "https://www.google.com/maps/d/u/0/edit?mid=110stuUfjlXhgxgKOgJhTdBZfM3oCQ2c&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 1017,
+    spending: 809,
+  },
+  {
     shortTrip: true,
     key: "PlayaDelCarmen2",
     city: "Playa del Carmen",
