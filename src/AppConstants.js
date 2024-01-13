@@ -504,7 +504,7 @@ export const LOCATIONS = [
     personalInstagramPost: "https://www.instagram.com/p/CmEUG9kPuY0/", // acuteengle
     photosPost: "https://www.instagram.com/p/Cl8VHThSme3/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/Clv_niXgECE/", // instagram reel
-    housing: 1470,
+    housing: null,
     spending: 1122,
   },
   {
@@ -556,7 +556,7 @@ export const LOCATIONS = [
     personalInstagramPost: "https://www.instagram.com/p/ClBEgnCuMO9/", // acuteengle
     photosPost: null, // b.engphotography
     dancePost: "https://www.instagram.com/reel/CkuT2BGA7Xd/", // instagram reel
-    housing: 1136,
+    housing: null,
     spending: 1918,
   },
   {

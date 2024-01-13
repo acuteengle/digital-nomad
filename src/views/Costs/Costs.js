@@ -31,10 +31,14 @@ export const Costs = () => {
   const labels = [];
   const housingData = [];
   const spendingData = [];
+  const citiesSet = new Set();
   for (const { city, housing, spending } of sortedLocations) {
-    labels.push(city);
-    housingData.push(housing);
-    spendingData.push(spending);
+    if (!citiesSet.has(city)) {
+      citiesSet.add(city);
+      labels.push(city);
+      housingData.push(housing);
+      spendingData.push(spending);
+    }
   }
 
   const data = {

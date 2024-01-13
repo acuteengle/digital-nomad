@@ -21,15 +21,18 @@ export const BasicInfo = ({ cityData }) => {
         <>
           <p className="indent">{`(${startDate.format('MMM YYYY')} - ${endDate.format('MMM YYYY')})`}</p>
           <h3 className="spaceTop">Monthly cost</h3>
+          {housing && (
+            <p className="indent">
+              {`Housing: $${housing}`}
+            </p>
+          )}
+          {spending && (
+            <p className="indent">
+              {`Spending: $${spending}`}
+            </p>
+          )}
           <p className="indent">
-            {`Housing: $${housing}`}
-          </p>
-
-          <p className="indent">
-            {`Spending: $${spending}`}
-          </p>
-          <p className="indent">
-            {`Total: $${housing + spending}`}
+            {`Total: $${(housing || 0) + (spending || 0)}`}
           </p>
         </>
       )}
