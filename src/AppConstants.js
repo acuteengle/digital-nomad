@@ -16,7 +16,7 @@ export const LOCATIONS = [
     photosPost: null, // b.engphotography
     dancePost: null, // instagram reel
     housing: 1162,
-    spending: 2141,
+    spending: 2932,
   },
   {
     key: "Taipei2",
