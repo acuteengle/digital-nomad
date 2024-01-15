@@ -26,7 +26,7 @@ export const LOCATIONS = [
     longitude: 114.1694,
     arrivalDay: "2024-01-06",
     departureDay: "2024-01-09",
-    video: null,
+    video: "https://www.youtube.com/watch?v=-Kd1WIdNF1A",
     map: null,
     blogPost: null,
     personalInstagramPost: null, // acuteengle
@@ -43,7 +43,7 @@ export const LOCATIONS = [
     longitude: 122.5654,
     arrivalDay: "2023-12-25",
     departureDay: "2024-01-06",
-    video: null,
+    video: "https://www.youtube.com/watch?v=-Kd1WIdNF1A",
     map: "https://www.google.com/maps/d/u/0/edit?mid=110stuUfjlXhgxgKOgJhTdBZfM3oCQ2c&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
@@ -83,7 +83,7 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/u/0/edit?mid=16Yfyh6QNASZaFnVPntANpJolPZirSx4&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
-    photosPost: null, // b.engphotography
+    photosPost: "https://www.instagram.com/p/CzDJvFHOzGn/", // b.engphotography
     dancePost: "https://www.instagram.com/reel/Cy54X10sasnzwoGzBxAMolTzwzJbsAo0jSWilk0/", // instagram reel
     housing: null,
     spending: null,
@@ -100,7 +100,7 @@ export const LOCATIONS = [
     map: "https://www.google.com/maps/d/u/0/edit?mid=1KTT2DexSJRFJLTGYm5fSy1v9jxpvvHg&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
-    photosPost: null, // b.engphotography
+    photosPost: "https://www.instagram.com/p/CzAV82YtlRZ/", // b.engphotography
     dancePost: null, // instagram reel
     housing: 1572,
     spending: 1632,
