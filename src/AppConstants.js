@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "Hanoi",
+    city: "Hanoi",
+    country: "Vietnam",
+    lattitude: 21.0278,
+    longitude: 105.8342,
+    arrivalDay: "2024-01-09",
+    departureDay: "2024-01-15",
+    video: null,
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1vWYpha5TP2xVgvNbx32ppP-yzR95Kwo&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: null, // instagram reel
+    housing: 545,
+    spending: 807,
+  },
+  {
     shortTrip: true,
     key: "HongKong",
     city: "Hong Kong",
