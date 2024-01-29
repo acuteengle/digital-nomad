@@ -1,6 +1,23 @@
 // newer locations at the front of the array
 export const LOCATIONS = [
   {
+    key: "ChiangMai",
+    city: "Chiang Mai",
+    country: "Thailand",
+    lattitude: 18.7883,
+    longitude: 98.9853,
+    arrivalDay: "2024-01-15",
+    departureDay: "2024-01-29",
+    video: "https://www.youtube.com/watch?v=l7t3YVmiQiU",
+    map: "https://www.google.com/maps/d/u/0/edit?mid=1kBfO5vXu9aT1K2SNVPdHYLOXnN4cnbk&usp=sharing",
+    blogPost: null,
+    personalInstagramPost: null, // acuteengle
+    photosPost: null, // b.engphotography
+    dancePost: "https://www.instagram.com/reel/C2mhFlyhRRR9CCiC70OL584rwOaej19Swi4wqE0/", // instagram reel
+    housing: 354,
+    spending: 747,
+  },
+  {
     key: "Hanoi",
     city: "Hanoi",
     country: "Vietnam",
@@ -8,7 +25,7 @@ export const LOCATIONS = [
     longitude: 105.8342,
     arrivalDay: "2024-01-09",
     departureDay: "2024-01-15",
-    video: null,
+    video: "https://www.youtube.com/watch?v=l7t3YVmiQiU",
     map: "https://www.google.com/maps/d/u/0/edit?mid=1vWYpha5TP2xVgvNbx32ppP-yzR95Kwo&usp=sharing",
     blogPost: null,
     personalInstagramPost: null, // acuteengle
@@ -31,7 +48,7 @@ export const LOCATIONS = [
     blogPost: null,
     personalInstagramPost: null, // acuteengle
     photosPost: null, // b.engphotography
-    dancePost: null, // instagram reel
+    dancePost: "https://www.instagram.com/reel/C13X5SLs8oGfuRIJYFaA5pLZcCVIgrhhiCugLM0/", // instagram reel
     housing: 1162,
     spending: 2932,
   },
